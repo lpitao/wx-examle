@@ -1,0 +1,14 @@
+<!--pages/content/content.wxml-->
+<view class="tu clearfix">
+  <template name="tu">
+    <view class='img'>
+      <image src="../../images/cs.png" width/>
+    </view>
+    <view class='txt'>
+      <view class='h1'>{{msg}}</view> 
+      <text class='name'>{{name}}</text>
+      <text class='time'> Time: {{time}} </text>
+    </view>
+  </template>
+  <template is="tu" data="{{...hangqing}}"></template>
+</view>

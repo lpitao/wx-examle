@@ -1,0 +1,77 @@
+
+<view class='xuangu clearfix'>
+  <icon type='search' color='#99999E' size='18'/>
+  <input placeholder="可搜索股票代码、股票名称" auto-focus  class='inp'/>
+  <icon type='clear' color='#8F8E94' size='18' class='clear'/>
+  <view class='search'>搜索</view>
+</view>
+
+<view>
+  <view class='wo '>
+    <text>我方信息</text>
+    <view class='clearfix diqu'>
+      <view class="section__title">地区</view>
+      <picker  range='{{diqu}}' value='{{diqu1index}}' bindchange="bindPickerChange">
+        <view class="picker">
+          {{diqu[diqu1index]}}
+        </view>
+      </picker>
+      <picker  range='{{diqu2}}' value='{{diqu2index}}' >
+        <view class="picker">
+          {{diqu2[diqu2index]}}
+        </view>
+      </picker>
+    </view>
+    <view class='clearfix diqu'>
+      <view class="section__title">行业</view>
+      <picker  range='{{hangye1}}' value='{{hangye1index}}'>
+        <view class="picker">
+          {{hangye1[hangye1index]}}
+        </view>
+      </picker>
+      <picker  range='{{hangye2}}' value='{{hangye2index}}'>
+        <view class="picker">
+          {{hangye2[hangye2index]}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  
+<view class='wo shou'>
+    <text>收购方要求</text>
+    <view class='clearfix diqu'>
+      <view class="section__title">标的行业</view>
+      <picker  range='{{biao1}}' value='{{biao1index}}'>
+        <view class="picker">
+          {{biao1[biao1index]}}
+        </view>
+      </picker>
+      <picker  range='{{biao2}}' value='{{biao2index}}'>
+        <view class="picker">
+          {{biao2[biao2index]}}
+        </view>
+      </picker>
+    </view>
+    <view class='clearfix diqu'>
+      <view class="section__title">标的地区</view>
+      <picker  range='{{biao3}}' value='{{biao3index}}'>
+        <view class="picker">
+          {{biao3[biao3index]}}
+        </view>
+      </picker>
+      <picker  range='{{biao4}}' value='{{biao4index}}'>
+        <view class="picker">
+          {{biao4[biao4index]}}
+        </view>
+      </picker> 
+    </view>
+    <view class='clearfix diqu'>
+      <view class="section__title2 ">标的利润(千万)</view>
+      <checkbox-group >
+        <label class="checkbox" wx:for="{{lirun}}">
+          <checkbox value="{{item}}" />{{item}}
+        </label>
+      </checkbox-group>
+    </view>
+  </view>
+</view>

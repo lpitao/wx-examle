@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/content/content",
+    "pages/form/form",
+    "pages/tab/tab",
+    "pages/table/table"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/content/content",
+        "text": "content"
+      },
+      {
+        "pagePath": "pages/form/form",
+        "text": "form"
+      },
+      {
+        "pagePath": "pages/tab/tab",
+        "text": "tab"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "text": "table"
+      }
+    ],
+    "color": "#fff",
+    "backgroundColor": "chocolate"
+  }
+}

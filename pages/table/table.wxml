@@ -1,0 +1,33 @@
+<!--pages/table/table.wxml-->
+<view>
+    <view class="table">
+        <view class="tr">
+            <view class="th">标题1</view>
+            <view class="th">标题2</view>
+        </view>
+        <view class='tr'>
+            <view class="td">{{content}}</view>
+            <view class="td">{{content}}</view> 
+        </view>
+    </view>
+</view>
+
+<view class='hang'>
+    <view class="table">
+        <view class="tr">
+            <view class="th">股票名称</view>
+            <view class="th">最新价</view>
+            <view class="th">涨幅</view>
+        </view>
+        <view class="tr" wx:for="{{gu}}">
+            <view class="td ming">
+              <view class='name'> {{item.name}}</view>
+              <text class='num'>{{item.num}}</text>
+              <text class='iconC'>创</text>
+              <text class='iconJ'>竞</text>
+            </view>
+            <view class="td gu">{{item.price}}</view>
+            <view class="td gu">{{item.per}}</view>
+        </view>
+    </view>
+</view>

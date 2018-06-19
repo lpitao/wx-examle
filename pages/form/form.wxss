@@ -1,0 +1,100 @@
+.clearfix:after {content:'';display:block;height:0;visibility:hidden;clear:both;}
+.clearfix {zoom:1;}
+.xuangu{
+  padding: 20rpx  40rpx;
+  width: 100%;
+  background: #D3D3D7;
+  box-sizing: border-box;
+  position: relative;
+}
+.xuangu icon{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left:70rpx;
+    height:38rpx;
+    z-index:2;
+}
+.xuangu .clear{
+   left:calc(50% + 180rpx);
+}
+.xuangu .inp{
+ height:60rpx;
+  line-height:60rpx;
+  width:85%;
+  float:left;
+  background:#fff;
+  font-size:28rpx;
+  border-radius:10rpx;
+  height:60rpx;
+  line-height:60rpx;
+  padding-left:80rpx;
+  box-sizing:border-box;
+  position:relative;
+}
+.xuangu .search{
+  color: #003660;
+  float: right;
+  font-size: 32rpx;
+  height:60rpx;
+  line-height:60rpx;
+}
+
+.clearfix:after {content:'';display:block;height:0;visibility:hidden;clear:both;}
+.clearfix {zoom:1;}
+
+.wo{
+  width:77%;
+  margin: 20rpx auto;
+  box-shadow: 0 5rpx 10rpx 2rpx #E0E0E0;
+  padding: 40rpx 30rpx; 
+  color: #252525;
+  font-size: 28rpx;
+}
+
+.wo text{
+ 
+  overflow: hidden;
+}
+.wo .diqu{
+  overflow: hidden;
+  margin-top: 40rpx;
+}
+.section__title{
+  float: left;
+  padding: 0 18rpx;
+}
+
+.picker{
+  float:left;
+  width: 170rpx;
+  height: 40rpx;
+  border: 1rpx solid #CCCCCC;
+  border-radius: 15rpx;
+  margin: 0 20rpx;
+  text-align: center;
+  color: #939393
+}
+
+.shou{
+  margin-top: 40rpx;
+}
+.section__title2{
+  padding: 0 20rpx;
+}
+.shou checkbox-group{
+  margin-top:30rpx;
+  display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  height:215rpx;
+
+}
+.shou checkbox-group label{
+  width:30%;
+  height:70rpx;
+  line-height:70rpx;
+  text-align:center;
+
+}

@@ -1,0 +1,45 @@
+.tu{
+  margin: 20rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #EBEBEB;
+}
+.tu .img{
+  float:left;
+  width:40%;
+  height:170rpx;
+
+  overflow:hidden;
+}
+.tu .img image{
+  width: 100%;
+  height: 100%;
+}
+.tu .txt{
+  float:right;
+  box-sizing: border-box;
+  width:57%;
+  font-size: 32rpx;
+  position: relative;
+  height: 170rpx;
+  margin-left: 20rpx;
+}
+.tu  .h1{
+  font-size:36rpx;
+
+}
+.tu text{
+  font-size: 28rpx;
+  color: #A1A1A1;
+  position: absolute;
+}
+.tu  .name{
+   bottom: 5rpx;
+   left: 5rpx;
+}
+.tu  .time{
+    bottom: 5rpx;
+    right: 5rpx;
+}
+
+.clearfix:after {content:'';display:block;height:0;visibility:hidden;clear:both;}
+.clearfix {zoom:1;}
